@@ -16,23 +16,43 @@
         <div class="row bg-primary header">
             <div class="col-12 text-light">
                 <h1 class="text-center">Match the magic number to win!</h1>
-                <h5 class="text-center">Clicking any crystal will add to your score, but you won't know how much until you try.</p>
-                <h5 class="text-center">Don't go over the magic number or you lose!</p>
+                <h5 class="text-center">Clicking any crystal will add to your score, but you won't know how much until
+                    you try.</p>
+                    <h5 class="text-center">Don't go over the magic number or you lose!</p>
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-5">
+            <div class="col-6">
                 <div class="card">
                     <h3 class="card-header text-center">Magic number</h3>
                     <div class="card-body text center magic-number"></div>
                 </div>
+                <div class="col-6">
+                    <div class="btn btn-default crystal1" value="crystal-1"><img src="assets/images/crystal1.jpg"></div>
+                    <div class="btn btn-default crystal2" value="crystal-2"><img src="assets/images/crystal2.jpg"></div>
+                    <div class="btn btn-default crystal3" value="crystal-3"><img src="assets/images/crystal3.jpg"></div>
+                    <div class="btn btn-default crystal4" value="crystal-4"><img src="assets/images/crystal4.jpg"></div>
+                </div>
             </div>
-
         </div>
-
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="wins-text">Wins: </div>
+                    <div class="losses-text">Losses: </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="yourScore-text">Your score: </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
-        <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
