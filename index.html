@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Logic Game</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,29 +24,37 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
-                    <h3 class="card-header text-center">Magic number</h3>
-                    <div class="card-body text center magic-number"></div>
+                    <h4 class="card-header text-center">Magic number</h4>
+                    <div class="card-body text-center magic-number"></div>
                 </div>
-                <div class="col-6">
-                    <div class="btn btn-default crystal1" value="crystal-1"><img src="assets/images/crystal1.jpg"></div>
-                    <div class="btn btn-default crystal2" value="crystal-2"><img src="assets/images/crystal2.jpg"></div>
-                    <div class="btn btn-default crystal3" value="crystal-3"><img src="assets/images/crystal3.jpg"></div>
-                    <div class="btn btn-default crystal4" value="crystal-4"><img src="assets/images/crystal4.jpg"></div>
-                </div>
+            </div>
+            <div class="col-8">
+                <div class="btn btn-default crystal1" value="crystal-1"><img src="assets/images/crystal1.jpg"></div>
+                <div class="btn btn-default crystal2" value="crystal-2"><img src="assets/images/crystal2.jpg"></div>
+                <div class="btn btn-default crystal3" value="crystal-3"><img src="assets/images/crystal3.jpg"></div>
+                <div class="btn btn-default crystal4" value="crystal-4"><img src="assets/images/crystal4.jpg"></div>
             </div>
         </div>
+        <br>
         <div class="row">
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
-                    <div class="wins-text">Wins: </div>
-                    <div class="losses-text">Losses: </div>
+                    <h4 class="card-header text-center">Your score</h4>
+                    <div class="card-body text-center your-score"></div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <div class="card">
-                    <div class="yourScore-text">Your score: </div>
+                    <h4 class="card-header text-center">Wins:</h4>
+                    <div class="card-body text-center wins-text"></div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <h4 class="card-header text-center">Losses:</h4>
+                    <div class="card-body text-center losses-text"></div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,12 @@
+img {
+    width: 120px;
+    height: 110px;
+}
+
+body {
+    background-image: url("../images/pawel-czerwinski-1574309-unsplash.jpg");
+}
+
+.card { 
+    opacity: .9;
+}
